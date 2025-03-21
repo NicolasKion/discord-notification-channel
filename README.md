@@ -1,13 +1,5 @@
 # Discord notification channel for Laravel 6.0+
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/discord.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/discord)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/github/workflow/status/laravel-notification-channels/discord/PHP.svg?style=flat-square)](https://github.com/laravel-notification-channels/discord/actions)
-[![StyleCI](https://styleci.io/repos/65772492/shield)](https://styleci.io/repos/65772492)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laravel-notification-channels/discord.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/discord)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/discord/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/discord/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/discord.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/discord)
-
 This package makes it easy to send notifications using the [Discord bot API](https://discord.com/developers/docs/intro) with Laravel.
 
 ## Contents
@@ -31,7 +23,7 @@ This package makes it easy to send notifications using the [Discord bot API](htt
 You can install the package via composer:
 
 ```bash
-composer require laravel-notification-channels/discord
+composer require nicolaskion/discord-notification-channel
 ```
 
 Next, you must load the service provider:
